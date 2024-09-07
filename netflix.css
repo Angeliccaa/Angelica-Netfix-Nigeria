@@ -1,0 +1,640 @@
+.sec1 {
+    background: url('images/nnetflix\ main.jpg') no-repeat center rgba(0, 0, 0, 0.85);
+    background-blend-mode: darken;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secc1 {
+    width: 100%;
+    display: flex;
+}
+
+.div1-1 {
+    margin-left: 100px;
+    width: 70%;
+}
+
+.div1-1 img {
+    width: 50%;
+    margin-top: -40px;
+}
+
+.div2-1 {
+    margin-left: 300px;
+    width: 30%;
+}
+
+.div2-1 button {
+    margin-top: 30px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    width: 40%;
+    font-size: medium;
+}
+
+.secc2 {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 60px;
+}
+
+.secc2 span {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+.secc2 div {
+    font-size: 20px;
+}
+
+.secc3 {
+    color: white;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.divv1 {
+    width: 45%;
+}
+
+.divv1 input {
+    width: 90%;
+    background-color: black;
+    border: 1px solid red;
+    padding: 15px;
+    color: white;
+}
+
+.divv2 {
+    width: 30%;
+}
+
+.divv2 button {
+    background-color: red;
+    color: white;
+    width: 75%;
+    font-size: x-large;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+.secbox {
+    background-color: black;
+    height: 100px;
+    background-image: linear-gradient(7deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00%);
+}
+
+.box {
+    width: 1330px;
+    height: 30px;
+    border: solid .25rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(102, 7, 31, 0.4) 80%, rgba(9, 3, 94, 0.1) 100%), black;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-top: -5px;
+}
+
+/* TRENDING NOW */
+.trending {
+    background-color: black;
+    color: white;
+    padding-left: 120px;
+    height: 40vh;
+}
+
+.trending span {
+    font-size: 30px;
+}
+
+.trend {
+    display: flex;
+    margin-top: 10px;
+    gap: 2%;
+}
+
+.trend select {
+    padding: 10px;
+    background-color: rgba(9, 3, 94, 0.1);
+    color: white;
+    font-size: 18px;
+}
+
+/* MIDDLE SECTION */
+.mrj {
+    padding-left: 120px;
+    color: white;
+    line-height: 30px;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.mrj span {
+    font-size: 30px;
+    color: white;
+}
+
+.mrjj {
+    display: flex;
+    /* gap: 2%; */
+    width: 90%;
+    padding-bottom: 60px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.mrj1,
+.mrj2,
+.mrj3,
+.mrj4 {
+    width: 21%;
+    background: linear-gradient(149deg, #152253, #381224);
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 45vh;
+    line-height: 30px;
+    padding: 30px 10px;
+    font-size: 14px;
+    color: grey;
+}
+
+.mrj1 span,
+.mrj2 span,
+.mrj3 span,
+.mrj4 span {
+    color: white;
+    font-size: 30px;
+}
+
+.mrj-1 {
+    margin-top: 105px;
+}
+
+.mrj-2 {
+    margin-top: 60px;
+}
+
+.mrj-3 {
+    margin-top: 130px;
+}
+
+.mrj-4 {
+    margin-top: 70px;
+}
+
+.mrj-image {
+    width: 20%;
+    margin-left: 80%;
+}
+
+.mrj2 {
+}
+
+.mrj3 {
+}
+
+.mrj4 {
+}
+
+/* FOOTER */
+.secfaq {
+    padding-left: 120px;
+    background-color: black;
+    width: 91%;
+    height: 190vh;
+    overflow: hidden;
+}
+
+.secfaq span {
+    color: white;
+    font-size: 30px;
+}
+
+.ttt {}
+
+.faq1:hover,
+.faq2:hover,
+.faq3:hover,
+.faq4:hover,
+.faq5:hover,
+.faq6:hover {
+    background-color: lightgray;
+    animation: slidebg 5s linear infinite;
+}
+
+.ttt button {
+    width: 85%;
+    background-color: black;
+    border: transparent;
+    margin-bottom: 10px;
+    height: 60%;
+}
+
+.faq1 {
+    display: flex;
+    gap: 70%;
+    background-color: grey;
+    width: 96%;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.faq2 {
+    display: flex;
+    gap: 49%;
+    background-color: grey;
+    width: 96%;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+}
+
+.faq3 {
+    display: flex;
+    gap: 63.5%;
+    background-color: grey;
+    width: 96%;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+}
+
+.faq4 {
+    display: flex;
+    gap: 67.5%;
+    background-color: grey;
+    width: 96%;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+}
+
+.faq5 {
+    display: flex;
+    gap: 49.5%;
+    background-color: grey;
+    width: 96%;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+}
+
+.faq6 {
+    display: flex;
+    gap: 57.5%;
+    background-color: grey;
+    width: 96%;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+}
+
+.foot {
+    color: white;
+    padding-left: 120px;
+    background-color: black;
+    padding-top: 50px;
+    line-height: 50px;
+}
+
+.foot span {
+    color: white;
+    font-size: medium;
+}
+
+.subfoot {
+    display: flex;
+    gap: 37%;
+}
+
+.foot1 {
+    width: 45%;
+}
+
+.foot1 input {
+    width: 185%;
+    background-color: black;
+    border: 1px solid red;
+    padding: 15px;
+    color: white;
+}
+
+.foot2 {
+    width: 30%;
+}
+
+.foot2 button {
+    background-color: red;
+    color: white;
+    width: 75%;
+    font-size: x-large;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+.footee {
+    background-color: black;
+    color: grey;
+    padding-left: 130px;
+    text-decoration: underline;
+    font-size: 19px;
+    line-height: 40px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: grey;
+}
+
+.footer {
+    display: flex;
+    margin-left: -40px;
+    gap: 8%;
+}
+
+.footer1 span {
+    text-decoration: none;
+}
+
+
+.last {
+    background-color: black;
+    padding-left: 130px;
+    padding-top: 40px;
+    height: 50vh;
+}
+
+.last1 {
+    display: flex;
+    width: 10%;
+    background-color: rgb(53, 52, 52);
+    border: 1px solid white;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.ila {
+    margin-top: 8px;
+}
+
+.last1 select {
+    background-color: rgb(53, 52, 52);
+    padding: 6px;
+    font-size: 15px;
+    color: white;
+    border: transparent;
+}
+
+.last2 {
+    color: grey;
+    font-size: 19px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+/* images scrollbar */
+.products-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1500;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    display: none;
+    padding: 20px;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.products-preview .preview {
+    display: none;
+    text-align: center;
+    background: black;
+    position: relative;
+    margin: 2rem;
+    scroll-behavior: smooth;
+    width: 40rem;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.products-preview .preview.active {
+    display: inline-block;
+}
+
+.products-preview .preview img {
+    height: 30rem;
+}
+
+.products-preview .preview .fa-times {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+    color: #444;
+    font-size: 4rem;
+}
+
+.products-preview .preview .fa-times:hover {
+    transform: rotate(90deg);
+}
+
+.products-preview .preview h3 {
+    color: #444;
+    padding: .5rem 0;
+    font-size: 2.5rem;
+}
+
+.products-preview .preview .stars {
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+
+.products-preview .preview .stars i {
+    color: #27ae60;
+}
+
+.products-preview .preview .stars span {
+    color: #999;
+}
+
+.galleryy {
+    background-color: black;
+    padding-bottom: 50px;
+    margin-top: -140px;
+}
+
+.gallery {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.gallery .productt {
+    width: 200px;
+    flex: 0 0 auto;
+    margin-right: 50px;
+    position: relative;
+    max-width: 50%;
+    max-height: 90vh;
+}
+
+.productt .numberr {
+    font-size: 150px;
+    font-weight: 800;
+    position: absolute;
+    top: 49%;
+    left: -15px;
+    color: rgb(102, 12, 12);
+    z-index: 1200;
+}
+
+.gallery .productt img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+    width: 1300px;
+}
+
+#backBtn,
+#nextBtn {
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.gallery .productt img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.text {
+    color: green;
+    font-size: 40px;
+    font-weight: 50%;
+    background-color: black;
+    margin-top: -10px;
+    margin-left: -240px;
+}
+
+.genre {
+    display: flex;
+    gap: 2%;
+    width: 50%;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+.gen {
+    border-radius: 10px;
+    border: 3px solid grey;
+    background-color: grey;
+    color: rgb(182, 175, 175);
+    padding: 5px;
+    width: 30%;
+}
+
+.genn {
+    border-radius: 10px;
+    border: 3px solid grey;
+    background-color: grey;
+    color: rgb(182, 175, 175);
+    padding: 5px;
+    width: 30%;
+}
+
+.gennn {
+    border-radius: 10px;
+    border: 3px solid grey;
+    background-color: grey;
+    color: rgb(182, 175, 175);
+    padding: 5px;
+    width: 30%;
+}
+
+.black {
+    border-radius: 10px;
+    border: 3px solid grey;
+    background-color: grey;
+    color: rgb(182, 175, 175);
+    padding: 5px;
+    width: 30%;
+}
+
+.white {
+    border-radius: 10px;
+    border: 3px solid grey;
+    background-color: grey;
+    color: rgb(182, 175, 175);
+    padding: 5px;
+    width: 30%;
+}
+
+.blue {
+    border-radius: 10px;
+    border: 3px solid grey;
+    background-color: grey;
+    color: rgb(182, 175, 175);
+    padding: 5px;
+    width: 30%;
+}
+
+.ppp p {
+    font-size: 20px;
+    background-color: black;
+    color: grey;
+}
+
+.pp {
+    margin-left: -110px;
+}
+
+.buttons button {
+    background-color: red;
+    color: white;
+    width: 45%;
+    border: 1px solid red;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: -50%;
+}
+
+.buttons a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttons {
+    margin-bottom: 90px;
+    margin-top: 50px;
+}

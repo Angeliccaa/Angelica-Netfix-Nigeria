@@ -1,0 +1,1361 @@
+/* MEDIA QUERIES FOR SEC1 */
+/* Crazy small phones */
+@media (max-width: 320px) {
+    .secc1 {
+        width: 90%;
+    }
+
+    .div1-1 {
+        margin-left: 20px;
+    }
+
+    .div1-1 img {
+        width: 70%;
+        margin-top: 15px;
+    }
+
+    .div2-1 {
+        margin-left: 30px;
+        width: 30%;
+    }
+
+    .div2-1 button {
+        padding: 7px;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .secc2 {
+        padding-top: 60px;
+    }
+
+    .secc2 span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .secc2 div {
+        font-size: 17px;
+    }
+
+    .secc3 {
+        display: grid;
+        margin-left: 60px;
+        margin-top: 80px;
+    }
+
+    .divv1 {
+        width: 65%;
+    }
+
+    .divv1 input {
+        width: 100%;
+    }
+
+    .divv2 {
+        width: 80%;
+    }
+
+    .divv2 button {
+        width: 100%;
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .box {
+        width: 301px;
+    }
+
+    /* TRENDING NOW */
+    .trending {
+        padding-left: 20px;
+        margin-top: -15px;
+    }
+
+    .trending span {
+        font-size: 25px;
+    }
+
+    .trend {
+        display: grid;
+    }
+
+    .trend select {
+        margin-bottom: 17px;
+    }
+
+    /* MIDDLE SECTION */
+    .mrj {
+        padding-left: 5px;
+        margin-top: -10px;
+    }
+
+    .mrj span {
+        font-size: 20px;
+    }
+
+    .mrjj {
+        display: grid;
+
+    }
+
+    .mrj1,
+    .mrj2,
+    .mrj3,
+    .mrj4 {
+        width: 98%;
+        margin-top: 30px;
+    }
+
+    .mrj-1 {
+        margin-top: 75px;
+    }
+
+    .mrj-3 {
+        margin-top: 100px;
+    }
+
+    /* FOOTER */
+    .secfaq {
+        padding-left: 0px;
+        margin-top: -10px;
+        width: 100%;
+    }
+
+    .secfaq span {
+        font-size: 20px;
+    }
+
+    .ttt button {
+        width: 85%;
+        background-color: black;
+        border: transparent;
+        margin-bottom: 0px;
+        height: 60%;
+    }
+
+    .faq1 {
+        display: flex;
+        gap: 29%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .faq2 {
+        display: flex;
+        gap: 2%;
+        background-color: grey;
+        width: 96%;
+        padding: 15px;
+        font-size: 16px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .faq3 {
+        gap: 14%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .faq4 {
+        gap: 24%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .faq5 {
+        gap: 4%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .faq6 {
+        display: flex;
+        gap: 2%;
+        background-color: grey;
+        width: 96%;
+        padding: 15px;
+        font-size: 20px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .foot {
+        padding-left: 10px;
+        margin-top: -10px;
+    }
+
+    .foot span {
+        font-size: 10px;
+    }
+
+    .subfoot {
+        display: grid;
+    }
+
+    .foot1 {
+        width: 45%;
+    }
+
+    .foot2 {
+        width: 100%;
+        margin-top: -15px;
+    }
+
+    .foot2 button {
+        width: 90%;
+        font-size: 20px;
+        padding: 5px;
+
+    }
+
+    .footee {
+        background-color: black;
+        color: grey;
+        padding-left: 20px;
+        text-decoration: underline;
+        font-size: 19px;
+        line-height: 40px;
+        padding-top: 80px;
+        margin-top: -15px;
+        padding-bottom: 40px;
+    }
+
+    .footer {
+        display: grid;
+        margin-left: -40px;
+        gap: 8%;
+    }
+
+    .last {
+        padding-left: 10px;
+        height: 50vh;
+        margin-top: -15px;
+        padding-top: 190px;
+    }
+
+    .last1 {
+        display: flex;
+        width: 50%;
+        background-color: rgb(53, 52, 52);
+        border: 1px solid white;
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+
+    .ila {
+        margin-top: 8px;
+    }
+
+    .last1 select {
+        background-color: rgb(53, 52, 52);
+        padding: 6px;
+        font-size: 15px;
+        color: white;
+        border: transparent;
+    }
+
+    .last2 {
+        color: grey;
+        font-size: 19px;
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+
+    /* images scrollbar */
+
+    .products-preview {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1500;
+        width: 100%;
+        background: rgba(0, 0, 0, .8);
+        display: none;
+        padding: 20px;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+
+    .products-preview .preview {
+        display: none;
+        text-align: center;
+        background: black;
+        position: relative;
+        margin: 2rem;
+        scroll-behavior: smooth;
+        width: 40rem;
+        overflow-y: scroll;
+        height: 100vh;
+    }
+
+
+
+    .products-preview .preview img {
+        width: 20%;
+        height: 30px;
+    }
+
+    .gallery .productt {
+        width: 300px;
+    }
+
+    .productt .numberr {
+        font-size: 70px;
+        font-weight: 800;
+        position: absolute;
+        top: 29%;
+        left: -5px;
+        color: rgb(102, 12, 12);
+        z-index: 300;
+    }
+
+    .gallery .productt img {
+        width: 160%;
+        border-radius: 10px;
+        transition: transform 0.5s;
+    }
+
+    .gallery-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0% auto;
+        margin-left: -15px;
+        width: 340px;
+        padding-top: 100px;
+    }
+
+    #backBtn,
+    #nextBtn {
+        width: 50px;
+        cursor: pointer;
+        margin: 40px;
+    }
+
+    .gallery .productt img:hover {
+        filter: grayscale(0);
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .text {
+        color: green;
+        font-size: 40px;
+        font-weight: 50%;
+        background-color: black;
+        margin-top: -10px;
+        margin-left: -240px;
+    }
+
+    .genre {
+        display: flex;
+        gap: 2%;
+        width: 50%;
+        padding-top: 40px;
+        margin-left: 20px;
+    }
+
+    .gen {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .genn {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .gennn {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .black {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .white {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .blue {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .ppp p {
+        font-size: 20px;
+        background-color: black;
+        color: grey;
+    }
+
+    .pp {
+        margin-left: -110px;
+    }
+
+    .buttons button {
+        background-color: red;
+        color: white;
+        width: 45%;
+        border: 1px solid red;
+        font-size: 30px;
+        padding: 15px;
+        border-radius: 5px;
+        margin-left: -50%;
+    }
+
+    .buttons a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .buttons {
+        margin-bottom: 90px;
+        margin-top: 50px;
+    }
+}
+
+/* Mobile phones */
+@media (min-width: 321px) and (max-width: 360px) {
+    .secc1 {
+        width: 90%;
+    }
+
+    .div1-1 {
+        margin-left: 20px;
+    }
+
+    .div1-1 img {
+        width: 70%;
+        margin-top: 15px;
+    }
+
+    .div2-1 {
+        margin-left: 30px;
+        width: 30%;
+    }
+
+    .div2-1 button {
+        padding: 7px;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .secc2 {
+        padding-top: 60px;
+    }
+
+    .secc2 span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .secc2 div {
+        font-size: 17px;
+    }
+
+    .secc3 {
+        display: grid;
+        margin-left: 60px;
+        margin-top: 80px;
+    }
+
+    .divv1 {
+        width: 65%;
+    }
+
+    .divv1 input {
+        width: 100%;
+    }
+
+    .divv2 {
+        width: 80%;
+    }
+
+    .divv2 button {
+        width: 100%;
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .box {
+        width: 301px;
+    }
+
+    /* TRENDING NOW */
+    .trending {
+        padding-left: 20px;
+        margin-top: -15px;
+    }
+
+    .trending span {
+        font-size: 25px;
+    }
+
+    .trend {
+        display: grid;
+    }
+
+    .trend select {
+        margin-bottom: 17px;
+    }
+
+     /* MIDDLE SECTION */
+     .mrj {
+        padding-left: 5px;
+        margin-top: -10px;
+    }
+
+    .mrj span {
+        font-size: 30px;
+    }
+
+    .mrj1,
+    .mrj2,
+    .mrj3,
+    .mrj4 {
+        width: 98%;
+        margin-top: 30px;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .mrj-1 {
+        margin-top: 90px;
+    }
+
+    .mrj-2 {
+        margin-top: 143px;
+    }
+
+    .mrj-3 {
+        margin-top: 130px;
+    }
+
+    .mrj-4 {
+        margin-top: 80px;
+    }
+ 
+    .mrjj {
+        display: grid;
+
+    }
+
+    /* FOOTER */
+    .secfaq {
+        padding-left: 0px;
+        margin-top: -10px;
+        width: 100%;
+    }
+
+    .secfaq span {
+        font-size: 20px;
+    }
+
+    .ttt button {
+        width: 85%;
+        background-color: black;
+        border: transparent;
+        margin-bottom: 0px;
+        height: 60%;
+    }
+
+    .faq1 {
+        display: flex;
+        gap: 29%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .faq2 {
+        display: flex;
+        gap: 2%;
+        background-color: grey;
+        width: 96%;
+        padding: 15px;
+        font-size: 16px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .faq3 {
+        gap: 14%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .faq4 {
+        gap: 24%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .faq5 {
+        gap: 4%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .faq6 {
+        display: flex;
+        gap: 2%;
+        background-color: grey;
+        width: 96%;
+        padding: 15px;
+        font-size: 20px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .foot {
+        padding-left: 10px;
+        margin-top: -10px;
+    }
+
+    .foot span {
+        font-size: 10px;
+    }
+
+    .subfoot {
+        display: grid;
+    }
+
+    .foot1 {
+        width: 45%;
+    }
+
+    .foot2 {
+        width: 100%;
+        margin-top: -15px;
+    }
+
+    .foot2 button {
+        width: 90%;
+        font-size: 20px;
+        padding: 5px;
+
+    }
+
+    .footee {
+        background-color: black;
+        color: grey;
+        padding-left: 20px;
+        text-decoration: underline;
+        font-size: 19px;
+        line-height: 40px;
+        padding-top: 80px;
+        margin-top: -15px;
+        padding-bottom: 40px;
+    }
+
+    .footer {
+        display: grid;
+        margin-left: -40px;
+        gap: 8%;
+    }
+
+    .last {
+        padding-left: 10px;
+        height: 50vh;
+        margin-top: -15px;
+        padding-top: 190px;
+    }
+
+    .last1 {
+        display: flex;
+        width: 50%;
+        background-color: rgb(53, 52, 52);
+        border: 1px solid white;
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+
+    .ila {
+        margin-top: 8px;
+    }
+
+    .last1 select {
+        background-color: rgb(53, 52, 52);
+        padding: 6px;
+        font-size: 15px;
+        color: white;
+        border: transparent;
+    }
+
+    .last2 {
+        color: grey;
+        font-size: 19px;
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+
+    /* images scrollbar */
+
+    .products-preview {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1500;
+        width: 100%;
+        background: rgba(0, 0, 0, .8);
+        display: none;
+        padding: 20px;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+
+    .products-preview .preview {
+        display: none;
+        text-align: center;
+        background: black;
+        position: relative;
+        margin: 2rem;
+        scroll-behavior: smooth;
+        width: 40rem;
+        overflow-y: scroll;
+        height: 100vh;
+    }
+
+
+
+    .products-preview .preview img {
+        width: 20%;
+        height: 30px;
+    }
+
+    .gallery .productt {
+        width: 300px;
+    }
+
+    .productt .numberr {
+        font-size: 70px;
+        font-weight: 800;
+        position: absolute;
+        top: 29%;
+        left: -5px;
+        color: rgb(102, 12, 12);
+        z-index: 300;
+    }
+
+    .gallery .productt img {
+        width: 160%;
+        border-radius: 10px;
+        transition: transform 0.5s;
+    }
+
+    .gallery-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0% auto;
+        margin-left: -15px;
+        width: 340px;
+        padding-top: 100px;
+    }
+
+    #backBtn,
+    #nextBtn {
+        width: 50px;
+        cursor: pointer;
+        margin: 40px;
+    }
+
+    .gallery .productt img:hover {
+        filter: grayscale(0);
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .text {
+        color: green;
+        font-size: 40px;
+        font-weight: 50%;
+        background-color: black;
+        margin-top: -10px;
+        margin-left: -240px;
+    }
+
+    .genre {
+        display: flex;
+        gap: 2%;
+        width: 50%;
+        padding-top: 40px;
+        margin-left: 20px;
+    }
+
+    .gen {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .genn {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .gennn {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .black {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .white {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .blue {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .ppp p {
+        font-size: 20px;
+        background-color: black;
+        color: grey;
+    }
+
+    .pp {
+        margin-left: -110px;
+    }
+
+    .buttons button {
+        background-color: red;
+        color: white;
+        width: 45%;
+        border: 1px solid red;
+        font-size: 30px;
+        padding: 15px;
+        border-radius: 5px;
+        margin-left: -50%;
+    }
+
+    .buttons a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .buttons {
+        margin-bottom: 90px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 450px) {
+    .secc1 {
+        width: 90%;
+    }
+
+    .div1-1 {
+        margin-left: 20px;
+    }
+
+    .div1-1 img {
+        width: 70%;
+        margin-top: 5px;
+    }
+
+    .div2-1 {
+        margin-left: 30px;
+        width: 30%;
+    }
+
+    .div2-1 button {
+        padding: 7px;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .secc2 {
+        padding-top: 60px;
+    }
+
+    .secc2 span {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .secc2 div {
+        font-size: 25px;
+    }
+
+    .secc3 {
+        display: grid;
+        margin-left: 60px;
+        margin-top: 80px;
+    }
+
+    .divv1 {
+        width: 70%;
+    }
+
+    .divv1 input {
+        width: 100%;
+    }
+
+    .divv2 {
+        width: 80%;
+    }
+
+    .divv2 button {
+        width: 100%;
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .box {
+        width: 301px;
+    }
+
+    /* TRENDING NOW */
+    .trending {
+        padding-left: 20px;
+        margin-top: -15px;
+    }
+
+    .trending span {
+        font-size: 25px;
+    }
+
+    .trend {
+        display: grid;
+    }
+
+    .trend select {
+        margin-bottom: 17px;
+    }
+
+     /* MIDDLE SECTION */
+     .mrj {
+        padding-left: 5px;
+        margin-top: -10px;
+    }
+
+    .mrj span {
+        font-size: 40px;
+    }
+
+    .mrj1,
+    .mrj2,
+    .mrj3,
+    .mrj4 {
+        width: 103%;
+        margin-top: 30px;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .mrj-1 {
+        margin-top: 140px;
+    }
+
+    .mrj-2 {
+        margin-top: 143px;
+    }
+
+    .mrj-3 {
+        margin-top: 140px;
+    }
+
+    .mrj-4 {
+        margin-top: 120px;
+    }
+ 
+    .mrjj {
+        display: grid;
+
+    }
+
+    /* FOOTER */
+    .secfaq {
+        padding-left: 0px;
+        margin-top: -10px;
+        width: 100%;
+    }
+
+    .secfaq span {
+        font-size: 20px;
+    }
+
+    .ttt button {
+        width: 85%;
+        background-color: black;
+        border: transparent;
+        margin-bottom: 0px;
+        height: 60%;
+    }
+
+    .ttt {
+        margin-left: 20px;
+    }
+
+    .faq1 {
+        display: flex;
+        gap: 42%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .faq2 {
+        display: flex;
+        gap: 3%;
+        background-color: grey;
+        width: 96%;
+        padding: 15px;
+        font-size: 20px;
+        color: white;
+        margin-top: 10px;
+    }
+
+    .faq3 {
+        gap: 30%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .faq4 {
+        gap: 38%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .faq5 {
+        gap: 4%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .faq6 {
+        display: flex;
+        gap: 20%;
+        background-color: grey;
+        width: 96%;
+        padding: 15px;
+        font-size: 20px;
+        color: white;
+        margin-top: 50px;
+    }
+
+    .foot {
+        padding-left: 10px;
+        margin-top: -450px;
+    }
+
+    .foot span {
+        font-size: 10px;
+    }
+
+    .subfoot {
+        display: grid;
+    }
+
+    .foot1 {
+        width: 45%;
+    }
+
+    .foot1 input {
+        width: 180%;
+    }
+
+    .foot2 {
+        width: 100%;
+        margin-top: -15px;
+    }
+
+    .foot2 button {
+        width: 90%;
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .footee {
+        background-color: black;
+        color: grey;
+        padding-left: 20px;
+        text-decoration: underline;
+        font-size: 19px;
+        line-height: 40px;
+        padding-top: 80px;
+        margin-top: -15px;
+        padding-bottom: 40px;
+    }
+
+    .footer {
+        display: grid;
+        margin-left: -40px;
+        gap: 8%;
+    }
+
+    .last {
+        padding-left: 10px;
+        height: 50vh;
+        margin-top: -15px;
+        padding-top: 190px;
+    }
+
+    .last1 {
+        display: flex;
+        width: 30%;
+        background-color: rgb(53, 52, 52);
+        border: 1px solid white;
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+
+    .ila {
+        margin-top: 8px;
+    }
+
+    .last1 select {
+        background-color: rgb(53, 52, 52);
+        padding: 6px;
+        font-size: 15px;
+        color: white;
+        border: transparent;
+    }
+
+    .last2 {
+        color: grey;
+        font-size: 19px;
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+
+    /* images scrollbar */
+
+    .products-preview {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1500;
+        width: 100%;
+        background: rgba(0, 0, 0, .8);
+        display: none;
+        padding: 20px;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+
+    .products-preview .preview {
+        display: none;
+        text-align: center;
+        background: black;
+        position: relative;
+        margin: 2rem;
+        scroll-behavior: smooth;
+        width: 40rem;
+        overflow-y: scroll;
+        height: 100vh;
+    }
+
+
+
+    .products-preview .preview img {
+        width: 20%;
+        height: 30px;
+    }
+
+    .gallery .productt {
+        width: 300px;
+    }
+
+    .productt .numberr {
+        font-size: 70px;
+        font-weight: 800;
+        position: absolute;
+        top: 29%;
+        left: -5px;
+        color: rgb(102, 12, 12);
+        z-index: 300;
+    }
+
+    .gallery .productt img {
+        width: 160%;
+        border-radius: 10px;
+        transition: transform 0.5s;
+    }
+
+    .gallery-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0% auto;
+        margin-left: -15px;
+        width: 400px;
+        padding-top: 100px;
+    }
+
+    #backBtn,
+    #nextBtn {
+        width: 50px;
+        cursor: pointer;
+        margin: 40px;
+    }
+
+    .gallery .productt img:hover {
+        filter: grayscale(0);
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .text {
+        color: green;
+        font-size: 40px;
+        font-weight: 50%;
+        background-color: black;
+        margin-top: -10px;
+        margin-left: -240px;
+    }
+
+    .genre {
+        display: flex;
+        gap: 2%;
+        width: 50%;
+        padding-top: 40px;
+        margin-left: 20px;
+    }
+
+    .gen {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .genn {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .gennn {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .black {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .white {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .blue {
+        border-radius: 10px;
+        border: 3px solid grey;
+        background-color: grey;
+        color: rgb(182, 175, 175);
+        padding: 5px;
+        width: 30%;
+    }
+
+    .ppp p {
+        font-size: 20px;
+        background-color: black;
+        color: grey;
+    }
+
+    .pp {
+        margin-left: -110px;
+    }
+
+    .buttons button {
+        background-color: red;
+        color: white;
+        width: 45%;
+        border: 1px solid red;
+        font-size: 30px;
+        padding: 15px;
+        border-radius: 5px;
+        margin-left: -50%;
+    }
+
+    .buttons a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .buttons {
+        margin-bottom: 90px;
+        margin-top: 50px;
+    }
